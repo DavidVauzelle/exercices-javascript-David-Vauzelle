@@ -5,8 +5,8 @@ let d;
 
 
 // Résultat attendu :
-
 // a => 5 et  b => 1
+
 c = b;
 console.log(c);
 
