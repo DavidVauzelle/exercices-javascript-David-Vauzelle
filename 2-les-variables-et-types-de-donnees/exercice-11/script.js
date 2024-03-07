@@ -5,9 +5,6 @@ let prixHT = parseInt(prompt("Quel est le prix HT ?"));
 // prix HT : 100 €
 console.log(`prix HT : ${prixHT}`);
 
-// Pour connaitre la taxe
-let taxe = parseInt(prompt("Quel est la taxe ?"));
-
 // Pour calculer le montant de la taxe
 let tauxDeTaxe = (prixHT * 15) / 100;
 
