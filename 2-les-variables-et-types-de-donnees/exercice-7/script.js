@@ -4,16 +4,16 @@ let nombre2 = prompt('Nombre 2 ?');
 // Résultat attendu pour 10 et 2, dans la console :
 
 let produit = nombre1 * nombre2;
-console.log(produit);
+console.log(`${nombre1} * ${nombre2} = ${produit}`);
 
 let difference = nombre1 - nombre2;
-console.log(difference);
+console.log(`${nombre1} - ${nombre2} = ${difference}`);
 
 let somme = nombre1 + nombre2;
-console.log(somme);
+console.log(`${nombre1} + ${nombre2} = ${somme}`);
 
 let quotient = nombre1 / nombre2;
-console.log(quotient);
+console.log(`${nombre1} / ${nombre2} = ${quotient}`);
 
 let puissance = nombre1 ** nombre2;
-console.log(puissance);
+console.log(`${nombre1} ** ${nombre2} = ${puissance}`);
