@@ -1,27 +1,18 @@
 // Pour connaitre le prix HT
-let prixHT = prompt("Quel est le prix HT ?");
-
-// Pour changer un string en number
-let numPrixHT = parseInt(prixHT);
+let prixHT = parseInt(prompt("Quel est le prix HT ?"));
 
 // Résultat attendu dans la console, pour un prixHT de 100€ : 
 // prix HT : 100 €
-console.log(`prix HT : ${numPrixHT}`);
+console.log(`prix HT : ${prixHT}`);
 
 // Pour connaitre la taxe
-let taxe = prompt("Quel est la taxe ?");
-
-// Pour changer un string en number
-let numTaxe = parseInt(taxe);
+let taxe = parseInt(prompt("Quel est la taxe ?"));
 
 // Pour calculer le montant de la taxe
-let tauxDeTaxe = numPrixHT * 0.15;
-
-// Pour changer un string en number
-let numTauxDeTaxe = parseInt(tauxDeTaxe);
+let tauxDeTaxe = (prixHT * 15) / 100;
 
 // prix TTC : 115 €
-let prixTTC = numPrixHT + numTauxDeTaxe;
+let prixTTC = prixHT + tauxDeTaxe;
 console.log(`prix TTC : ${prixTTC}`);
 
 
