@@ -1,3 +1,3 @@
 let userAge = prompt('Quel est votre age ?');
-age++;
+userAge++;
 console.log(userAge);
