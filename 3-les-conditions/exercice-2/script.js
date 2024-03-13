@@ -18,5 +18,3 @@ if (number1 > number2) {
     console.log('Les deux nombres sont égaux'); 
 }
 
-
-
