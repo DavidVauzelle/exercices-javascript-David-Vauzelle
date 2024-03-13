@@ -8,7 +8,7 @@ if (note < 12) {
 	// Pour 12 et +
     alert('Passable');   
 } else if (note >= 14 && note < 16) {
-	// // Pour 12 et +
+	// Pour 12 et +
     alert('Bien');   
 } else if (note >= 16 && note < 18) {
 	// Pour 16 et +
