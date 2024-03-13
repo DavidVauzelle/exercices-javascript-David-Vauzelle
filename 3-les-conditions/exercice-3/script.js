@@ -14,6 +14,3 @@ if (user_password === password) {
     // SI le mot de passe est incorrect : Accès interdit
     alert('Accès interdit'); 
 }
-
-
-
