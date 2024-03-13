@@ -1,5 +1,5 @@
 // Demandez à l'utilisateur son âge avec prompt() et affichez si l'utilisateur est mineur ou majeur.
-let age = prompt('Quel est votre age ?');
+let age = parseInt(prompt('Quel est votre age ?'));
 
 // Résultat attendu dans la console, si l'âge < 18 : Vous êtes mineur.
 // Résultat attendu dans la console, si l'âge >= 18 : Vous êtes majeur.

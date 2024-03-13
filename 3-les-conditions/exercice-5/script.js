@@ -1,6 +1,6 @@
 // Demandez la note d'un élève avec un prompt() et affichez sa mention.
 
-let note = prompt('Quel est votre note ?');
+let note = parseInt(prompt('Quel est votre note ?'));
 if (note < 12) {
     // pour une note < 12
     alert('Pas de mention');

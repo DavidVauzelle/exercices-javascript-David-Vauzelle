@@ -5,8 +5,8 @@
         Les deux nombres sont égaux
 */
 
-let number1 = prompt('Nombre 1 ?');
-let number2 = prompt('Nombre 2 ?');
+let number1 = parseInt(prompt('Nombre 1 ?'));
+let number2 = parseInt(prompt('Nombre 2 ?'));
 
 if (number1 > number2) {
     // Le nombre 1 est plus grand que le nombre 2
