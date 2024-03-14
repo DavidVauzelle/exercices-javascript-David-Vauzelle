@@ -4,5 +4,5 @@
 // Résultat attendu dans la console :
 let table = 7;
 for (let i = 1; i <= 10; i++) {
-    console.log(`${table} * ${i} = ${7 * i}`);
+    console.log(`${table} x ${i} = ${7 * i}`);
 }
