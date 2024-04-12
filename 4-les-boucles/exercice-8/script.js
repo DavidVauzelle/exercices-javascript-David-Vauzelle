@@ -35,7 +35,7 @@ while (nombre_secret_utilisateur !== nombre_secret) {
         console.log('Trop grand');
         nombre_secret_utilisateur = prompt('Quel est le nombre secret');
     } else {
-     console.log('Félicitations, vous avez trouvé !');
+        console.log('Félicitations, vous avez trouvé !');
     }
 }
 
