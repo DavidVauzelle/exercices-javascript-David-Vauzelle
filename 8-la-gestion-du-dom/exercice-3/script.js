@@ -3,9 +3,9 @@
 
 // Sélection du bouton
 let elementButton = document.querySelector('.button_body');
+let elementBody = document.querySelector('body');
 
 // Création d'un event au clique
 elementButton.addEventListener('click', function() {
-    let elementBody = document.querySelector('body');
     elementBody.style.backgroundColor = 'green';
 });
